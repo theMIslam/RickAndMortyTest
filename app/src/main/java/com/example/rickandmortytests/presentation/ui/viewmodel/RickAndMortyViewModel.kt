@@ -1,8 +1,8 @@
-package com.example.rickandmortytests.ui.viewmodel
+package com.example.rickandmortytests.presentation.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.rickandmortytests.domain.usecase.RickAndMortyUseCase
+import com.example.rickandmortytests.domain.usecases.RickAndMortyUseCase
 import com.example.rickandmortytests.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers

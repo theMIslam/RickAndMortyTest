@@ -1,4 +1,4 @@
-package com.example.rickandmortytests.data.dto
+package com.example.rickandmortytests.data.dtos
 
 data class Result(
     val created: String,

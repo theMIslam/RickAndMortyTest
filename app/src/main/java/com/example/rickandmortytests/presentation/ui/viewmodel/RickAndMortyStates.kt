@@ -1,4 +1,4 @@
-package com.example.rickandmortytests.ui.viewmodel
+package com.example.rickandmortytests.presentation.ui.viewmodel
 
 import com.example.rickandmortytests.domain.model.RickAndMortyModel
 

@@ -1,4 +1,4 @@
-package com.example.rickandmortytests.ui.view
+package com.example.rickandmortytests.presentation.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,15 +9,15 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.rickandmortytests.R
 import com.example.rickandmortytests.databinding.ActivityMainBinding
-import com.example.rickandmortytests.ui.adapter.RickAndMortyAdapter
-import com.example.rickandmortytests.ui.viewmodel.RickAndMortyViewModel
+import com.example.rickandmortytests.presentation.ui.adapter.RickAndMortyAdapter
+import com.example.rickandmortytests.presentation.ui.viewmodel.RickAndMortyViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-    private lateinit var adapterMain :RickAndMortyAdapter
+    private lateinit var adapterMain : RickAndMortyAdapter
     private val viewModelMain: RickAndMortyViewModel by viewModels()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -1,6 +1,6 @@
 package com.example.rickandmortytests.domain.model
 
-import com.example.rickandmortytests.data.dto.Result
+import com.example.rickandmortytests.data.dtos.Result
 
 data class RickAndMortyModel(
     val created: String,

@@ -1,6 +1,6 @@
-package com.example.rickandmortytests.data.api
+package com.example.rickandmortytests.data.apiservice
 
-import com.example.rickandmortytests.data.dto.Characters
+import com.example.rickandmortytests.data.dtos.Characters
 import com.example.rickandmortytests.util.Constants
 import retrofit2.http.GET
 

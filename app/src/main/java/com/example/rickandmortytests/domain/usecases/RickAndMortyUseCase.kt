@@ -1,8 +1,8 @@
-package com.example.rickandmortytests.domain.usecase
+package com.example.rickandmortytests.domain.usecases
 
 import com.example.rickandmortytests.domain.model.RickAndMortyModel
 import com.example.rickandmortytests.domain.model.toDomain
-import com.example.rickandmortytests.domain.repository.RickAndMortyRepository
+import com.example.rickandmortytests.domain.repositories.RickAndMortyRepository
 import com.example.rickandmortytests.util.Resource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

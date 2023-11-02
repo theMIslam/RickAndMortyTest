@@ -1,6 +1,5 @@
-package com.example.rickandmortytests.ui.adapter
+package com.example.rickandmortytests.presentation.ui.adapter
 
-import android.content.ClipData.Item
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
