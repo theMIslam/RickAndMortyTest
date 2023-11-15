@@ -4,16 +4,17 @@ plugins {
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
     id 'kotlin-parcelize'
+    id 'androidx.navigation.safeargs.kotlin'
 }
 
 android {
     namespace 'com.example.rickandmortytests'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.rickandmortytests"
         minSdk 21
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
