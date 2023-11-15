@@ -4,7 +4,7 @@ import com.example.rickandmortytests.data.dtos.Characters
 import com.example.rickandmortytests.util.Constants
 import retrofit2.http.GET
 
-interface ApiService {
+interface RickAndMortyApiService {
     @GET(Constants.END_POINT)
     suspend fun getCharacters(): Characters
 }

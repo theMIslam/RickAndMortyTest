@@ -1,6 +1,6 @@
 package com.example.rickandmortytests.di
 
-import com.example.rickandmortytests.data.apiservice.ApiService
+import com.example.rickandmortytests.data.apiservice.RickAndMortyApiService
 import com.example.rickandmortytests.data.repositories.RickAndMortyRepositoryImpl
 import com.example.rickandmortytests.domain.repositories.RickAndMortyRepository
 import com.example.rickandmortytests.util.Constants
@@ -22,9 +22,9 @@ object ModuleApp {
         .baseUrl(Constants.BASE_URL)
         .addConverterFactory(GsonConverterFactory.create())
         .build()
-        .create(ApiService::class.java)
+        .create(RickAndMortyApiService::class.java)
 
     @Singleton
     @Provides
-    fun providesRepository(apiService: ApiService): RickAndMortyRepository = RickAndMortyRepositoryImpl(apiService)
+    fun providesRepository(apiService: RickAndMortyApiService): RickAndMortyRepository = RickAndMortyRepositoryImpl(apiService)
 }
